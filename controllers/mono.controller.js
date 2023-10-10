@@ -22,7 +22,6 @@ module.exports = {
     },
 
     create(req, res) {
-        console.log(req.body);
         const music = new monoModel({
             id: req.body.id,
             name: req.body.name,
