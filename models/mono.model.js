@@ -19,6 +19,3 @@ const monoSchema = new Schema({
 const monoModel = mongoose.model("mono", monoSchema);
 
 module.exports = monoModel;
-
-// Cette ligne la remplace les deux au dessus
-// module.exports = mongoose.model("movie", movieSchema)
