@@ -1,6 +1,6 @@
-<h1 align="center" id="title">Monomusic - mobile application</h1>
+<h1 align="center" id="title">Monomusic - server</h1>
 
-<p id="description">App to complete the server and the back office from the monomusic projet.</p>
+<p id="description">Server for monomusic projet.</p>
 <a href="https://github.com/monority/dev-native-monomusic">Mobile app<a/>  
 
 <a href="https://github.com/monority/dev-monomusic">Backoffice<a/>  
