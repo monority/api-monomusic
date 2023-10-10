@@ -36,7 +36,7 @@ module.exports = {
                 bluetooth: req.body.options.bluetooth,
             },
         });
-        music.save().then(() => res.send({ error: "Ecouteurs non trouvé" })).catch(err => {
+        music.save().then(() => res.send({ message: "Ecouteurs ajouté" })).catch(err => {
             res.status(400).send({ error: err.message });
         })
     },
